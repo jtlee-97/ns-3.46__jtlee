@@ -1,0 +1,26 @@
+20ms: /NodeList/7/DeviceList/0/LteUeRrc/ConnectionEstablished UE IMSI 1: connected to CellId 1 with RNTI 1
+20ms: /NodeList/4/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 1 RNTI 1
+40256ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=A3ConditionSatisfied UE-RNTI=1 targetCellId=2 servingRsrp=73 targetRsrp=77 candidateCount=0
+40256ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=ChoPrepareStart UE-RNTI=1 targetCellId=2 servingRsrp=73 targetRsrp=77 candidateCount=1
+40256ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=HoRequestSentToCandidates UE-RNTI=1 targetCellId=2 servingRsrp=73 targetRsrp=77 candidateCount=1
+40256ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=HoRequestAckReceived UE-RNTI=1 targetCellId=2 servingRsrp=73 targetRsrp=77 candidateCount=1
+40256ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=RrcReconfigurationWithChoSent UE-RNTI=1 targetCellId=2 servingRsrp=73 targetRsrp=77 candidateCount=1
+40256ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=ChoStoredInUe UE-RNTI=1 targetCellId=2 servingRsrp=73 targetRsrp=77 candidateCount=1
+40320ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=ChoExecutionStart UE-RNTI=1 targetCellId=2 servingRsrp=0 targetRsrp=77 candidateCount=1
+40320ms: /NodeList/4/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=TriggerHandoverCalled UE-RNTI=1 targetCellId=2 servingRsrp=0 targetRsrp=77 candidateCount=1
+40320ms: /NodeList/4/DeviceList/0/LteEnbRrc/HandoverStart eNB CellId 1: start handover of UE with IMSI 1 RNTI 1 to CellId 2
+40320ms: /NodeList/7/DeviceList/0/LteUeRrc/HandoverStart UE IMSI 1: previously connected to CellId 1 with RNTI 1, doing handover to CellId 2
+40324ms: /NodeList/7/DeviceList/0/LteUeRrc/HandoverEndOk UE IMSI 1: successful handover to CellId 2 with RNTI 1
+40324ms: /NodeList/5/DeviceList/0/LteEnbRrc/HandoverEndOk eNB CellId 2: completed handover of UE with IMSI 1 RNTI 1
+51880ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=A3ConditionSatisfied UE-RNTI=1 targetCellId=3 servingRsrp=93 targetRsrp=97 candidateCount=0
+51880ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=ChoPrepareStart UE-RNTI=1 targetCellId=3 servingRsrp=93 targetRsrp=97 candidateCount=1
+51880ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=HoRequestSentToCandidates UE-RNTI=1 targetCellId=3 servingRsrp=93 targetRsrp=97 candidateCount=1
+51880ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=HoRequestAckReceived UE-RNTI=1 targetCellId=3 servingRsrp=93 targetRsrp=97 candidateCount=1
+51880ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=RrcReconfigurationWithChoSent UE-RNTI=1 targetCellId=3 servingRsrp=93 targetRsrp=97 candidateCount=1
+51880ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=ChoStoredInUe UE-RNTI=1 targetCellId=3 servingRsrp=93 targetRsrp=97 candidateCount=1
+51944ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=ChoExecutionStart UE-RNTI=1 targetCellId=3 servingRsrp=0 targetRsrp=97 candidateCount=1
+51944ms: /NodeList/5/DeviceList/0/$ns3::LteEnbNetDevice/LteHandoverAlgorithm/$ns3::ConditionalHandoverAlgorithm/ChoEvent CHO event=TriggerHandoverCalled UE-RNTI=1 targetCellId=3 servingRsrp=0 targetRsrp=97 candidateCount=1
+51944ms: /NodeList/5/DeviceList/0/LteEnbRrc/HandoverStart eNB CellId 2: start handover of UE with IMSI 1 RNTI 1 to CellId 3
+51944ms: /NodeList/7/DeviceList/0/LteUeRrc/HandoverStart UE IMSI 1: previously connected to CellId 2 with RNTI 1, doing handover to CellId 3
+51948ms: /NodeList/7/DeviceList/0/LteUeRrc/HandoverEndOk UE IMSI 1: successful handover to CellId 3 with RNTI 1
+51948ms: /NodeList/6/DeviceList/0/LteEnbRrc/HandoverEndOk eNB CellId 3: completed handover of UE with IMSI 1 RNTI 1

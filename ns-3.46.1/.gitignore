@@ -1,0 +1,62 @@
+# Build artifacts
+build/
+cmake-cache/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.exe
+
+# Build lock files
+.lock-*
+*.lock
+
+# CMake build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Simulation output logs and statistics
+*.log
+*.csv
+*Stats.txt
+*stats.txt
+cho-*.log
+cho.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE settings (optional - include if you want to share)
+# .vscode/
+# .idea/
+
+# Backup directories
+backup/
+*.backup
