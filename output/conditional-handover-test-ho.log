@@ -1,0 +1,33 @@
+26ms [RRC-UE-CONNECTED] context=/NodeList/19/DeviceList/0/NrUeRrc/ConnectionEstablished imsi=19 cellId=1 rnti=1
+35ms [RRC-GNB-CONNECTED] context=/NodeList/0/DeviceList/0/NrGnbRrc/ConnectionEstablished imsi=19 cellId=1 rnti=1
+5237ms [CHO-DETAIL] rnti=1 step=Step1_MR_TxByUe actor=UE action=TX message=MeasurementReport to=Source-gNB measId=1 servingRsrp=14 rawNeighborResultCount=1
+5239ms [CHO-DETAIL] rnti=1 step=Step1_MR_RxBySource actor=Source-gNB action=RX message=MeasurementReport from=UE measId=1 servingRsrp=14 rawNeighborResultCount=1
+5239ms [CHO-DETAIL] rnti=1 step=Step1_MR_ProcessedBySource actor=Source-gNB action=PROCESS message=MeasurementReport measId=1 hysteresisDb=0
+5239ms [CHO-EVENT] rnti=1 event=A3ConditionSatisfied targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=0
+5239ms [CHO-DETAIL] rnti=1 step=Step1_CandidateEvaluation Candidate accepted: cellId=13 targetRsrp=18 threshold=14 condition=(target > serving+offset+hyst) true
+5239ms [CHO-EVENT] rnti=1 event=ChoPrepareStart targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5239ms [MR] context=/NodeList/0/DeviceList/0/NrGnbRrc/RecvMeasurementReport imsi=19 servingCellId=1 rnti=1 measId=1 servingRsrpRange=14 servingRsrpDbm=-127 servingRsrqRange=34 servingRsrqDb=-3 neighborCount=1 neighCellId=13 neighRsrpRange=18 neighRsrpDbm=-123 neighRsrqRange=34 neighRsrqDb=-3
+5240ms [CHO-DETAIL] rnti=1 step=Step2_ChoDecisionCompleted actor=Source-gNB action=PROCESS stage=ChoDecision decisionDoneAtMs=5240 decisionDurationMs=1 candidates=[{cellId=13,rsrp=18}] selectedTargetCellId=13
+5240ms [CHO-DETAIL] rnti=1 step=Step2_HoReq_TxBySource actor=Source-gNB action=TX message=HoPreparationRequest via=RealX2 targetCellId=13 mode=ConditionalDeferredExecution x2PropagationDelayUs=263
+5240ms [CHO-DETAIL] rnti=1 step=Step2_HoReq_RxByTarget actor=Target-gNB(cellId=13) action=RX message=HoPreparationRequest from=Source-gNB via=RealX2
+5240ms [CHO-EVENT] rnti=1 event=HoRequestSentToCandidates targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5240ms [CHO-EVENT] rnti=1 event=HoRequestAckReceived targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5240ms [CHO-DETAIL] rnti=1 step=Step2_HoAck_TxByTarget actor=Target-gNB(cellId=13) action=TX message=HoPreparationAck to=Source-gNB via=RealX2
+5240ms [CHO-DETAIL] rnti=1 step=Step2_AdmissionProcessedByTarget actor=Target-gNB(cellId=13) action=PROCESS stage=AdmissionControl startAtMs=5240 doneAtMs=5240 mode=RealX2
+5240ms [CHO-DETAIL] rnti=1 step=Step2_AdmissionControlAndAck actor=Source-gNB action=RX message=HoPreparationAck(targetCellId=13) allAckReceivedAtMs=5240ms mode=RealX2ConditionalPreparation x2PropagationDelayUs=263
+5240ms [CHO-EVENT] rnti=1 event=RrcReconfigurationWithChoPrepared targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5240ms [CHO-DETAIL] rnti=1 step=Step3_ChoPreparedAtSource actor=Source-gNB action=STORE message=RrcReconfiguration(CHO) mode=DeferredUntilCondition
+5240ms [CHO-DETAIL] rnti=1 step=Step3_RrcReconfigCho_TxBySource actor=Source-gNB action=TX message=RrcReconfiguration(CHO) to=UE mode=DeferredUntilCondition serviceDelayUs=2005
+5242ms [CHO-DETAIL] rnti=1 step=Step3_RrcReconfigCho_RxByUe actor=UE action=RX message=RrcReconfiguration(CHO) from=Source-gNB mode=DeferredUntilCondition
+5242ms [CHO-EVENT] rnti=1 event=ChoStoredInUe targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5242ms [CHO-DETAIL] rnti=1 step=Step3_UeReceivedChoCommand actor=UE action=STORE choContextAtMs=5242 candidates=[{cellId=13,rsrp=18}] executionMonitoring=STARTED
+5242ms [CHO-EVENT] rnti=1 event=ChoExecutionConditionMet targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5242ms [CHO-EVENT] rnti=1 event=ChoExecutionStart targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5242ms [CHO-DETAIL] rnti=1 step=Step4_UeSelectionDecision actor=UE action=PROCESS stage=ChoExecutionCondition conditionMetAtMs=5242 selectedTargetCellId=13 selectedTargetRsrp=18 servingRsrp=14 candidates=[{cellId=13,rsrp=18}]
+5242ms [CHO-DETAIL] rnti=1 step=Step5_ExecutePreparedCho actor=Source-gNB action=EXECUTE preparedChoCommand targetCellId=13
+5242ms [CHO-DETAIL] rnti=1 step=Step5_RrcReconfigExec_TxBySource actor=Source-gNB action=TX message=RrcReconfiguration(CHO-Execute)
+5244ms [CHO-DETAIL] rnti=1 step=Step5_RrcReconfigExec_RxByUe actor=UE action=RX message=RrcReconfiguration(CHO-Execute)
+5242ms [HO-START-GNB] context=/NodeList/0/DeviceList/0/NrGnbRrc/HandoverStart imsi=19 sourceCellId=1 rnti=1 targetCellId=13
+5242ms [CHO-EVENT] rnti=1 event=TriggerHandoverCalled targetCellId=13 servingRsrp=14 targetRsrp=18 candidateCount=1
+5246ms [HO-START-UE] context=/NodeList/19/DeviceList/0/NrUeRrc/HandoverStart imsi=19 sourceCellId=1 rnti=1 targetCellId=13
+5250ms [HO-ENDOK-UE] context=/NodeList/19/DeviceList/0/NrUeRrc/HandoverEndOk imsi=19 targetCellId=13 rnti=1

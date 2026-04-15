@@ -1,0 +1,4 @@
+txNodeId,role,actualTxPowerDbm,propagationLossDb,satBeamGainDb,ueAntennaGainDb,beamGainDeltaFromServingDb,rxPowerWithAntennaDbm,rxPowerWithAntennaW
+
+servingTxNodeId,servingRxPowerDbm,interferencePowerDbm,noisePowerDbm,sinrDb,bandwidthHz,noiseFigureDb,servingSatBeamGainDb,ueAntennaGainDb
+0,-inf,-inf,-93.9897,-inf,2e+07,7,12.4163,0
